@@ -1,0 +1,79 @@
+{
+  "jodek:crafting": {
+    "criteria": {
+      "tick": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:root": {
+    "criteria": {
+      "always": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:first_village": {
+    "criteria": {
+      "plains": "2026-04-29 03:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "plains": "2026-04-29 03:34:48 +0000"
+    },
+    "done": false
+  },
+  "darkbosses:root": {
+    "criteria": {
+      "darkbosses_info_extras": "2026-04-29 03:26:35 +0000"
+    },
+    "done": true
+  },
+  "jodek:craft_spawn_eggs": {
+    "criteria": {
+      "tick": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "darkbosses:info_vanilla_bosses": {
+    "criteria": {
+      "info_vanilla_bosses": "2026-04-29 03:26:35 +0000"
+    },
+    "done": true
+  },
+  "jodek:get_spawn_egg_recipes": {
+    "criteria": {
+      "Always": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "jodek:root": {
+    "criteria": {
+      "tick": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "auth:tick": {
+    "criteria": {
+      "requirements": "2026-04-29 03:25:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2026-04-29 03:25:54 +0000",
+      "minecraft:stony_peaks": "2026-04-29 03:33:17 +0000",
+      "minecraft:forest": "2026-04-29 03:33:21 +0000",
+      "minecraft:river": "2026-04-29 03:34:59 +0000",
+      "minecraft:plains": "2026-04-29 03:32:57 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

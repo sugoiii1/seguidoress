@@ -1,0 +1,543 @@
+[23:38:49] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.2
+[23:38:51] [main/INFO]: Loading 177 mods:
+	- appleskin 3.0.6+mc1.21
+	- architectury 13.0.8
+	- artifacts 13.2.0
+	   |-- cardinal-components-base 6.1.0
+	   |-- cardinal-components-entity 6.1.0
+	   |-- com_electronwill_night-config_core 3.8.0
+	   |-- com_electronwill_night-config_toml 3.8.0
+	   \-- expandability 12.0.0
+	- backpacked 3.0.3
+	- bcc 21.1.0
+	- bettercombat 2.3.2+1.21.1
+	   \-- tiny_config 3.1.0
+	- betterthanmending 2.1.0
+	- bplb 1.1.1-fabric+1.21(.1)mc
+	- brutalbosses 1.21-8.5
+	- bundleapi 1.1.0
+	- clumps 19.0.0.1
+	- collective 8.13
+	- coroutil 1.21.1-1.3.8
+	   \-- forgeconfigapiport 21.1.3
+	        |-- com_electronwill_night-config_core 3.8.0
+	        \-- com_electronwill_night-config_toml 3.8.0
+	- crafable_items 0.7.1
+	- cristellib 3.0.3
+	   \-- blue_endless_jankson 1.2.3
+	- critterarmory 1.21.1-0.6.3-fabric
+	   \-- configlibtxf 7.2.8-fabric
+	- cupboard 1.21-2.9
+	- darkbosses 1.0.5
+	- dummmmmmy 1.21-2.0.11
+	- dynamiclights 1.8.3+mod
+	- expanded_ecosphere 3.4.5
+	- explorerscompass 1.21.1-2.2.5-fabric
+	- fabric-api 0.116.9+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.72+7b3d111d19
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.6+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.2+fa89716719
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.6+5b36e0f719
+	   |-- fabric-data-generation-api-v1 20.2.35+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.4+7b3d111d19
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.8+kotlin.2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.2
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- formations 1.0.2
+	- formationsoverworld 1.0.5
+	- framework 0.13.11
+	   \-- org_reflections_reflections 0.10.2
+	- fwaystones 3.3.4+mc1.21.1
+	- fzzy_config 0.7.6+1.21
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- goblintraders 1.11.2
+	- improvedtrident 2.2
+	- isslime 1.1.0
+	- java 21
+	- jei 19.27.0.340
+	- jeresources 1.6.0.12
+	- justenoughbreeding 1.6.0
+	- lootintegrations 1.21-4.7
+	- lootintegrations_yungs 1
+	- magistuarmory 10.12
+	- mcwbridges 3.1.2
+	- merenc 4.3
+	- midnightlib 1.9.2
+	- minecraft 1.21.1
+	- minecraft-util-mod 1.0.0
+	- mmv 2.0.0
+	- mob_drops_recipes_overworld 2.1.0
+	- modernfix 5.25.1+mc1.21.1
+	- monolib 2.1.0
+	- moonlight 1.21-2.29.23
+	- morevillagers 6.0.0
+	   \-- cloth-config 15.0.140
+	        \-- cloth-basic-math 0.6.1
+	- mr_auth 1-v1.5.1
+	- naturallychargedcreepers 3.6
+	- naturescompass 1.21.1-2.2.7-fabric
+	- openpartiesandclaims 0.25.10
+	- oracle_index 1.1.1
+	   |-- ai_djl_api 0.31.1
+	   |-- ai_djl_huggingface_tokenizers 0.31.1
+	   |-- com_microsoft_onnxruntime_onnxruntime 1.20.0
+	   |-- dev_langchain4j_langchain4j 1.0.0
+	   |-- dev_langchain4j_langchain4j-core 1.0.0
+	   |-- dev_langchain4j_langchain4j-embeddings 1.0.0-beta5
+	   |-- dev_langchain4j_langchain4j-embeddings-all-minilm-l6-v2-q 1.0.0-beta5
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_apache_opennlp_opennlp-tools 2.5.4
+	   |-- org_commonmark_commonmark 0.27.1
+	   |-- org_commonmark_commonmark-ext-yaml-front-matter 0.27.1
+	   \-- org_jsoup_jsoup 1.17.2
+	- owo 0.12.15.4+1.21
+	   |-- io_wispforest_endec 0.1.5.1
+	   |-- io_wispforest_endec_gson 0.1.3.1
+	   |-- io_wispforest_endec_jankson 0.1.3.1
+	   \-- io_wispforest_endec_netty 0.1.2
+	- phoenixlootbags 1.0.1
+	- placeholder-api 2.4.1+1.21
+	- player_animation_library 1.1.4+mc.1.21.1
+	   |-- com_zigythebird_mochafloats 4.1.0
+	   \-- org_javassist_javassist 3.30.2-GA
+	- puffish_attributes 0.8.2
+	- refinedstorage 2.0.1
+	   |-- cloth-config 15.0.140
+	   |    \-- cloth-basic-math 0.6.1
+	   \-- team_reborn_energy 4.1.0
+	- refinedstorage_quartz_arsenal 1.0.6
+	- resourcefulconfig 3.0.11
+	- resourcefullib 3.0.12
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- shieldparry 1.0.0
+	- simplyswords 1.63.0-1.21.1
+	- simplytooltips 0.1.3
+	- smallships 2.0.0-b2.1
+	- sparkweave 0.510.0
+	   |-- net_harawata_appdirs 1.2.1
+	   \-- sparkweave_renderdoc_loader 0.510.0
+	- spittingimage 3-1.21.1-fabric
+	- stackrefill 4.9
+	- taxfreelevels 1.4.7
+	- togenc 1.2
+	- travelerscompass 4.0.4
+	- treeharvester 9.1
+	- trinkets 3.10.0
+	   |-- cardinal-components-base 6.1.0
+	   \-- cardinal-components-entity 6.1.0
+	- undeadleather 1.0.3
+	- underground_villages 4.0.3
+	- vc_gliders 1.1.8
+	   |-- commonnetworking 1.0.16-1.21
+	   \-- playeranimator 2.0.1+1.21.1
+	- villagerfollows 2.1.0
+	- watut 1.21.0-1.1.3
+	- xaerominimap 25.3.10
+	   \-- xaerolib 1.1.0
+	- xaeroworldmap 1.40.11
+	   \-- xaerolib 1.1.0
+	- yigd 2.4.18
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- libgui 11.1.0+1.21
+	        |-- jankson 8.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+[23:38:51] [main/WARN]: Found 1 non-fabric mod:
+	- Spartan.jar
+[23:38:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/seguidoress/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:38:52] [main/INFO]: Compatibility level set to JAVA_21
+[23:38:52] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:38:53] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:38:53] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:38:53] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 65 options available, 0 override(s) found
+[23:38:53] [main/INFO]: Applying Nashorn fix
+[23:38:53] [main/WARN]: Reference map 'tiny_config-common-common-refmap.json' for tiny_config.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:38:54] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[23:38:54] [main/WARN]: @Mixin target net.minecraft.class_525 was not found moonlight.mixins.json:CreateWorldScreenMixin from mod moonlight
+[23:38:54] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[23:38:54] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[23:38:54] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[23:38:54] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[23:38:54] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[23:38:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[23:39:00] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[23:39:06] [main/INFO]: Vanilla bootstrap took 10015 milliseconds
+[23:39:06] [main/ERROR]: No data fixer registered for artifacts:mimic
+[23:39:07] [main/INFO]: Reflections took 268 ms to scan 2 urls, producing 4 keys and 64 values
+[23:39:07] [main/ERROR]: No data fixer registered for goblin_trader
+[23:39:07] [main/ERROR]: No data fixer registered for vein_goblin_trader
+[23:39:07] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[23:39:07] [main/INFO]: Registered synced data key backpacked:backpack for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:backpacks for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:cosmetic_backpack for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:selected_backpack for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:unlockable_backpack_slots for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:immortal_cooldown for minecraft:player
+[23:39:07] [main/INFO]: Registered synced data key backpacked:backpack_scale for minecraft:player
+[23:39:07] [main/INFO]: Better Compatibility Checker starting
+[23:39:07] [main/INFO]: Loading config file
+[23:39:07] [main/INFO]: Config file loaded
+[23:39:07] [main/INFO]: [BPLB] Config loaded successfully
+[23:39:07] [main/INFO]: [BPLB] Mod initialization initialized
+[23:39:07] [main/INFO]: [BPLB] Initializing server!
+[23:39:07] [main/INFO]: [BPLB] Server initialized!
+[23:39:07] [main/INFO]: [BPLB] Mod initialization finished
+[23:39:07] [main/INFO]: Brutal bosses initialized
+[23:39:07] [main/INFO]: Customized Bundles!
+[23:39:07] [main/INFO]: Loading Collective version 8.13.
+[23:39:07] [main/INFO]: fabric loader environment detected
+[23:39:07] [main/INFO]: Loaded config for: cupboard.json
+[23:39:08] [main/INFO]: Loaded config dummmmmmy-common.json
+[23:39:08] [main/INFO]: [Dynamic Lights] MidnightLib detected!
+[23:39:08] [main/INFO]: [Dynamic Lights] Registering server started event...
+[23:39:08] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[23:39:08] [main/INFO]: ExpandAbility here, who dis?
+[23:39:08] [main/INFO]: Loading Expanded Ecosphere
+[23:39:09] [main/INFO]: [Expanded Ecosphere Updater] Found no updates
+[23:39:09] [main/INFO]: Is initializing.
+[23:39:09] [main/INFO]: Has successfully been initialized.
+[23:39:09] [main/INFO]: Hello Fabric world!
+[23:39:10] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[23:39:10] [main/INFO]: [STDOUT]: No matching files were found.
+[23:39:10] [main/INFO]: Loaded config moonlight-common.json
+[23:39:10] [main/INFO]: Hello from the Oracle Wiki Mod!
+[23:39:10] [main/INFO]: We don't have to worry about people re-inventing Venezuela glisco, that's their problem for integrating the Bourgeoisie into their pack
+[23:39:10] [main/INFO]: Initializing Phoenix's Loot Bags mod
+[23:39:10] [main/INFO]: Registering items for phoenixlootbags
+[23:39:10] [main/INFO]: Registered loot table modifications
+[23:39:10] [main/INFO]: Registered mob drop modifications
+[23:39:10] [main/INFO]: Phoenix's Loot Bags mod initialized successfully!
+[23:39:11] [main/INFO]: Shield Parry Mod iniciado!
+[23:39:12] [main/INFO]: Loaded config simplyswords:general in 381ms
+[23:39:12] [main/INFO]: Loaded config simplyswords:gem_powers in 356ms
+[23:39:12] [main/INFO]: Loaded config simplyswords:status_effects in 5ms
+[23:39:12] [main/INFO]: Loaded config simplyswords:weapon_attributes in 101ms
+[23:39:13] [main/INFO]: Loaded config simplyswords:unique_effects in 378ms
+[23:39:13] [main/ERROR]: No data fixer registered for battlestandard
+[23:39:13] [main/ERROR]: No data fixer registered for battlestandarddark
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:simplyaxolotlentity
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:thrown_sword
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:frostfall_entity
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:livyatan_entity
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:spear_entity
+[23:39:13] [main/ERROR]: No data fixer registered for simplyswords:runic_entity
+[23:39:13] [main/INFO]: [STDOUT]: /workspaces/seguidoress/servidor_minecraft/config
+[23:39:13] [main/INFO]: Loaded config simplytooltips:config in 64ms
+[23:39:13] [main/INFO]: SimplyTooltips config loaded: simplytooltips:config
+[23:39:13] [main/INFO]: Spitting Image
+[23:39:14] [main/INFO]: Peeling skin..
+[23:39:14] [main/INFO]: [STDOUT]: All 5 have been set properly
+[23:39:14] [main/INFO]: [STDOUT]: Initializing: villagerfollows
+[23:39:14] [main/ERROR]: No data fixer registered for target_dummy
+[23:39:14] [main/INFO]: Initialized block sets in 14ms
+[23:39:14] [main/INFO]: Initialized color sets in 37ms
+[23:39:14] [main/INFO]: Loading Open Parties and Claims!
+[23:39:14] [main/INFO]: Registering common data for channel xaerolib:main!
+[23:39:14] [main/INFO]: Loading primary common config for channel xaerolib:main!
+[23:39:14] [main/INFO]: Loading server config profiles for channel xaerolib:main!
+[23:39:14] [main/INFO]: Loading XaeroLib common 1/2!
+[23:39:14] [main/INFO]: Loading XaeroLib server 1/2!
+[23:39:14] [main/INFO]: Registering common data for channel xaerominimap:main!
+[23:39:14] [main/INFO]: Loading primary common config for channel xaerominimap:main!
+[23:39:14] [main/INFO]: Loading server config profiles for channel xaerominimap:main!
+[23:39:14] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23:39:14] [main/INFO]: Registering common data for channel xaeroworldmap:main!
+[23:39:14] [main/INFO]: Loading primary common config for channel xaeroworldmap:main!
+[23:39:14] [main/INFO]: Loading server config profiles for channel xaeroworldmap:main!
+[23:39:14] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23:39:14] [main/ERROR]: Registry 'moonlight:world_saved_data_type' was empty after loading
+[23:39:14] [main/ERROR]: Registry 'moonlight:custom_map_data_types' was empty after loading
+[23:39:15] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:39:18] [Worker-Main-1/INFO]: Loaded config simplyswords:loot in 13ms
+[23:39:20] [main/ERROR]: Parsing error loading recipe mob_drops_recipes_overworld:rotten_flesh
+com.google.gson.JsonParseException: Pattern references symbol 'S' but it's not defined in the key
+	at knot/com.mojang.serialization.DataResult$Error.md4ef6a4$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[23:39:20] [main/INFO]: Loaded 2756 recipes
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:nether_gauntlet_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "bosses_of_mass_destruction:gauntlet"; Second: Failed to get element bosses_of_mass_destruction:gauntlet missed input: {"nether_gauntlet_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"bosses_of_mass_destruction:gauntlet"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bosses_of_mass_destruction:blazing_eye
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:old_champions_remains_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:draugr_boss"; Second: Failed to get element soulsweapons:draugr_boss missed input: {"old_champions_remains_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:draugr_boss"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:draugr
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:day_stalker_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:day_stalker"; Second: Failed to get element soulsweapons:day_stalker missed input: {"decaying_king_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:day_stalker"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:dawnbreaker
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:obsidilith_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "bosses_of_mass_destruction:obsidilith"; Second: Failed to get element bosses_of_mass_destruction:obsidilith missed input: {"obsidilith_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"bosses_of_mass_destruction:obsidilith"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bosses_of_mass_destruction:obsidian_heart
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:decaying_king_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:accursed_lord_boss"; Second: Failed to get element soulsweapons:accursed_lord_boss missed input: {"decaying_king_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:accursed_lord_boss"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:darkin_blade
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:frenzied_shade_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:night_shade"; Second: Failed to get element soulsweapons:night_shade missed input: {"frenzied_shade_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:night_shade"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:essence_of_eventide
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:monarch_of_chaos_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:chaos_monarch"; Second: Failed to get element soulsweapons:chaos_monarch missed input: {"monarch_of_chaos_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:chaos_monarch"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:chaos_orb
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:void_blossom_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "bosses_of_mass_destruction:void_blossom"; Second: Failed to get element bosses_of_mass_destruction:void_blossom missed input: {"void_blossom_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"bosses_of_mass_destruction:void_blossom"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bosses_of_mass_destruction:void_thorn
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:magus_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "spellbladenext:magus"; Second: Failed to get element spellbladenext:magus missed input: {"void_blossom_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"spellbladenext:magus"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: spellbladenext:prismatic
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:info_bomd_bosses: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bosses_of_mass_destruction:levitation_block
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:info_graveyard_bosses: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: graveyard:soul_fire_brazier
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:corrupted_champion_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "graveyard:lich"; Second: Failed to get element graveyard:lich missed input: {"corrupted_champion_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"graveyard:lich"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: graveyard:purple_bone_staff
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:night_prowler_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:night_prowler"; Second: Failed to get element soulsweapons:night_prowler missed input: {"decaying_king_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:night_prowler"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:soul_reaper
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:info_souls_bosses: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:lord_soul_dark
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:night_lich_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "bosses_of_mass_destruction:lich"; Second: Failed to get element bosses_of_mass_destruction:lich missed input: {"night_lich_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"bosses_of_mass_destruction:lich"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: bosses_of_mass_destruction:ancient_anima
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:info_spellblade_bosses: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: spellbladenext:flaming_falchion
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:fallen_icon_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:moonknight"; Second: Failed to get element soulsweapons:moonknight missed input: {"fallen_icon_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:moonknight"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:moonlight_greatsword
+[23:39:20] [main/ERROR]: Parsing error loading custom advancement darkbosses:returning_knight_boss: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "soulsweapons:returning_knight"; Second: Failed to get element soulsweapons:returning_knight missed input: {"returning_knight_boss":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"soulsweapons:returning_knight"}}}}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: soulsweapons:altar_block
+[23:39:20] [main/INFO]: Loaded 2082 advancements
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:bamboo_basket'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:turtle_shell'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:cardboard_box'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:classic'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:trash_can'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:standard'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:end_crystal'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:vintage'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:piglin_pack'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:wandering_bag'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:rocket'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:mini_chest'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:sheep_plush'
+[23:39:20] [main/INFO]: Adding backpack 'backpacked:honey_jar'
+[23:39:20] [main/INFO]: Loaded config for: brutalbosses.json
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:drownedboss for: minecraft:drowned
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:irongolemboss for: minecraft:iron_golem
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:snowgolemboss for: minecraft:snow_golem
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:zombieboss for: minecraft:zombie
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:skeletonshieldboss for: minecraft:skeleton
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:pillagerboss for: minecraft:pillager
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:vexboss for: minecraft:vex
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:evokerboss for: minecraft:evoker
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:dummyboss for: minecraft:zombie
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:vindicatorboss for: minecraft:vindicator
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:witherskeletonshieldboss for: minecraft:wither_skeleton
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:witherskeletonrangedboss for: minecraft:wither_skeleton
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:cavespiderboss for: minecraft:cave_spider
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:zombietoxicboss for: minecraft:zombie
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:huskboss for: minecraft:husk
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:evokersummoner for: minecraft:evoker
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:archmageboss for: minecraft:wandering_trader
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:guardianboss for: minecraft:guardian
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:endervindicatorboss for: minecraft:vindicator
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:shulkerboss for: minecraft:shulker
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:zoglinboss for: minecraft:zoglin
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:evilchickenboss for: minecraft:chicken
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:blazeboss for: minecraft:blaze
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:witchboss for: minecraft:witch
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:phantomboss for: minecraft:phantom
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:madcowboss for: minecraft:mooshroom
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:rabbitboss for: minecraft:rabbit
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:piglinbruteboss for: minecraft:piglin_brute
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:ghastboss for: minecraft:ghast
+[23:39:21] [main/INFO]: Loaded boss: brutalbosses:strayboss for: minecraft:stray
+[23:39:21] [main/INFO]: Loaded config for: lootintegrations.json
+[23:39:21] [main/INFO]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
+[23:39:21] [main/INFO]: Failed to load custom color set definition {"id":"suppsquared:sack","colors":{"default":"supplementaries:sack"},"replace":false}. Ignoring
+[23:39:21] [main/INFO]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
+[23:39:21] [main/INFO]: Reloading grave shape (server)
+[23:39:21] [main/INFO]: Grave model and shape reload successful (server)
+[23:39:21] [main/INFO]: Reloading YIGD graveyard data (server)
+[23:39:21] [main/INFO]: Graveyard data successfully reloaded (server)
+[23:39:21] [main/INFO]: Reloading YIGD grave area overrides (server)
+[23:39:21] [main/INFO]: Grave area overrides successfully reloaded (server)
+[23:39:21] [main/WARN]: Initial datapack load took 5.803 s
+[23:39:21] [main/INFO]: Applied 480 biome modifications to 240 of 253 new biomes in 25.96 ms
+[23:39:22] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 40771 bytes (in 5 string chunks with the size of 10000)
+[23:39:22] [Server thread/INFO]: Loading server configs...
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/flower_forest_japanese/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/flower_forest_japanese/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert_oasis/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/desert_oasis/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain_alpine/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/mountain_alpine/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/beach_lighthouse/side
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/beach_lighthouse/side as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna_na/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/savanna_na/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/swamp/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/snowy_igloo/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/snowy_igloo/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/nilotic/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/nilotic/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/badlands_pueblo/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/badlands_pueblo/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/tudor/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/tudor/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mushroom/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/mushroom/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/mediterranean/houses/regular
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/mediterranean/houses/regular as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/birch_forest_romanian/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/birch_forest_romanian/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa_fortified/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/mesa_fortified/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/classic/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/classic/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/wandering_trader_camp/side
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/wandering_trader_camp/side as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/desert/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/desert/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/rustic/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/rustic/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/savanna/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/savanna/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village ctov:village/beach/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/beach/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/taiga/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:stone_brick_village_waystone to village ctov:village/underground/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/underground/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:red_desert_village_waystone to village ctov:village/mesa/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/mesa/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/grove_villager_outpost/decor
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/grove_villager_outpost/decor as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/jungle/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/mountain/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/mountain/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/halloween/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/halloween/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/jungle_tribal/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/jungle_tribal/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/iberian/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/iberian/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/christmas/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/christmas/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/plains/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/swamp_fortified/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/swamp_fortified/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/plains_fortified/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/plains_fortified/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village ctov:village/taiga_fortified/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/taiga_fortified/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village kaisyn:village/exclusives/swedish/houses
+[23:39:22] [Server thread/ERROR]: Cannot add to kaisyn:village/exclusives/swedish/houses as it cannot be found!
+[23:39:22] [Server thread/INFO]: Adding waystone fwaystones:mossy_stone_brick_village_waystone to village ctov:village/jungle_tree/house
+[23:39:22] [Server thread/ERROR]: Cannot add to ctov:village/jungle_tree/house as it cannot be found!
+[23:39:22] [Server thread/INFO]: Loading XaeroLib common 2/2!
+[23:39:22] [Server thread/INFO]: Loading XaeroLib server 2/2!
+[23:39:22] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[23:39:22] [Server thread/INFO]: Loading properties
+[23:39:22] [Server thread/INFO]: Default game type: SURVIVAL
+[23:39:22] [Server thread/INFO]: Generating keypair
+[23:39:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:39:22] [Server thread/INFO]: Using epoll channel type
+[23:39:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:39:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:39:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:39:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:39:22] [Server thread/INFO]: Preparing level "world"
+[23:39:22] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[23:39:22] [Server thread/INFO]: Loading server info!
+[23:39:22] [Server thread/INFO]: Loading player configs...
+[23:39:22] [Server thread/INFO]: Loaded player configs!
+[23:39:22] [Server thread/INFO]: Loading parties...
+[23:39:23] [Server thread/INFO]: Loaded parties!
+[23:39:23] [Server thread/INFO]: Fixing party inconsistencies...
+[23:39:23] [Server thread/INFO]: Registered party system for OPAC: default
+[23:39:23] [Server thread/INFO]: Registered permission system for OPAC: permission_api
+[23:39:23] [Server thread/INFO]: Loading claims...
+[23:39:23] [Server thread/INFO]: Loaded claims in 16ms
+[23:39:23] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
+[23:39:23] [Server thread/INFO]: Configured OPAC to use the following permission system: permission_api
+[23:39:23] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
+[23:39:23] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[23:39:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:39:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:39:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:39:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:39:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:39:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:39:25] [Server thread/INFO]: Time elapsed: 2169 ms
+[23:39:25] [Server thread/INFO]: Done (3.084s)! For help, type "help"
+[23:39:25] [Server thread/WARN]: Dedicated server took 39.003 seconds to load
+[23:39:25] [Server thread/INFO]: [Dynamic Lights] Sending global config to server...
+[23:39:26] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[23:39:26] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[23:39:32] [Server thread/WARN]: Unknown attachment type vc_gliders:lightning_timer found when deserializing, skipping
+[23:39:32] [Server thread/WARN]: Unknown attachment type vc_gliders:is_gliding found when deserializing, skipping
+[23:39:32] [Server thread/INFO]: homter[/127.162.220.99:41151] logged in with entity id 4 at (175.69999998807907, 63.0, 239.6642699856384)
+[23:39:32] [Server thread/INFO]: Sending server config values to client
+[23:39:32] [Server thread/INFO]: homter joined the game
+[23:39:32] [Server thread/INFO]: Sending item configs to client
+[23:39:32] [Server thread/INFO]: Updating all forceload tickets for 5026003a-7af8-3dfb-8dc8-cbb0f42dfada
+[23:39:32] [Server thread/INFO]: Priority overwritten for player homter. Claiming: GRAVE / Robbing: INVENTORY
+[23:39:32] [Server thread/INFO]: Receiving client config
+[23:39:43] [Server thread/INFO]: Ataryne[/127.252.58.2:42459] logged in with entity id 264 at (60.57630997909376, 60.0, 5.304317341635569)
+[23:39:43] [Server thread/INFO]: Sending server config values to client
+[23:39:43] [Server thread/INFO]: Ataryne joined the game
+[23:39:43] [Server thread/INFO]: Sending item configs to client
+[23:39:43] [Server thread/INFO]: Updating all forceload tickets for 83c28ee2-343a-39f9-b33d-a968d0b3b6bb
+[23:39:43] [Server thread/INFO]: Priority overwritten for player Ataryne. Claiming: GRAVE / Robbing: INVENTORY
+[23:39:43] [Server thread/INFO]: Receiving client config
+[23:39:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[23:39:50] [Server thread/INFO]: [homter: Triggered [login] (set value to 1)]
